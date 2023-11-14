@@ -1,0 +1,56 @@
+.button {
+    background-color: rgb(53, 52, 52);
+    border-radius: 8px;
+    height: 20px;
+    width: 50px;
+    border: 2px solid black ;
+    color: white;
+    font-weight: 550;
+    font-size: 12px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 100px 100px  ;
+    grid-template-rows: 100px 100px;
+    box-sizing: border-box;
+    height: 130px;
+    width: 300px;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+
+    @media (0<width<600px) {
+       scale: 0.95;
+       
+    }
+
+}
+
+.desc{
+    width: 200px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.head{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 180px;
+}
+
+.note{
+    font-size: 13px;
+    color: rgb(90, 89, 89);
+    margin-top: -80px;
+
+    @media (0<width<600px) {
+
+        scale: 0.9;
+    }
+
+}
